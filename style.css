@@ -1,3 +1,8 @@
 .summer {
   overflow: hidden;
+  height: 300px;
+}
+
+.footer {
+  margin-top: 20px;
 }
