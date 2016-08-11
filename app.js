@@ -12,8 +12,8 @@ angular
         url: '/',
         templateUrl: 'pages/home.html'
       })
-      .state('notHome', {
-        url: '/notHome',
-        templateUrl: 'pages/notHome.html'
+      .state('button1', {
+        url: '/button1',
+        templateUrl: 'pages/button1.html'
       })
   }])
