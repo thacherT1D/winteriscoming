@@ -10,10 +10,10 @@ angular
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'home.html'
+        templateUrl: 'pages/home.html'
       })
       .state('notHome', {
         url: '/notHome',
-        templateUrl: 'notHome.html'
+        templateUrl: 'pages/notHome.html'
       })
   }])
