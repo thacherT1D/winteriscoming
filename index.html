@@ -10,7 +10,9 @@
     <div ng-app="app">
       <button ui-sref="home">Home</button>
       <button ui-sref="notHome">Not Home</button>
+      <header ng-include="'templates/nav.html'"></header>
       <div ui-view></div>
+      <footer ng-include="'templates/footer.html'"></footer>
     </div>
 
     <!-- JavaScript for: jQuery, angular, materialize, and angular-materialize. All of which are needed for Angular + Materialize -->
